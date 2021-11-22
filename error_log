@@ -1,0 +1,774 @@
+[19-Oct-2021 14:03:09 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:09 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:13 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:14 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:15 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:18 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:45 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:03:47 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:04:21 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:04:55 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 14:04:57 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[19-Oct-2021 15:31:03 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[29-Oct-2021 21:55:49 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[29-Oct-2021 21:56:14 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[29-Oct-2021 23:36:51 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 00:22:01 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:54:16 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:16 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:21 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:27 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:30 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:31 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:33 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:34 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:35 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:37 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:38 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:40 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:41 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:55:42 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:56:06 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:56:08 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:56:10 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:56:11 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:19 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:21 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:24 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:24 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:31 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:43 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[30-Oct-2021 15:58:45 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[05-Nov-2021 19:29:14 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[05-Nov-2021 19:29:15 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#5 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make()
+#10 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/spangkpd/erplite.spandanit.com/core/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
